@@ -2,10 +2,14 @@
 ## Black Lives Matter (US Category) `CSE 472 - Group 3`
 By: John Oper & Joshua Dipert
 
+---
+
 ## **This report is best viewed in a Jupyter Notebook**
 # If you cannot open the Jupyter notebook on your own machine, you can do one of the following:
 1. Open the Google Collabe File, found [here](https://colab.research.google.com/drive/1873Id-1eBi6OdKusK-hvEmOtdofG7G4v?usp=sharing)
 2. Open the .pdf file (Not as nice looking but it has all of the data)
+
+---
 
 ## **The zip file consists of the following**
 `More on each of these can be found in the Jupyter Notebook`
@@ -19,8 +23,8 @@ By: John Oper & Joshua Dipert
   * `Headlines` the headline of each article
   * `Article_Text` the text of each article
 
-* ---
-Name: `BLM_CNN_GPT2_Training_V1.txt`
+---
+* Name: `BLM_CNN_GPT2_Training_V1.txt`
 * Description: This text file consits of all the articles whos healines did NOT contain "blm" or "black lives matter"
 * Usage: Trained the GPT-2 model
 * Contents:
@@ -30,8 +34,8 @@ Name: `BLM_CNN_GPT2_Training_V1.txt`
 * Name: `checkpoint -> run1` (folder)
 * Description: The model generated from the text input
 * Usage: Generated text based on the headlines
-* ---
-Name: `samples -> run1` (folder)
+---
+* Name: `samples -> run1` (folder)
 * Description: Sample outputs for every 100 steps while training
 
 #### ***Final Outputs***
@@ -46,8 +50,8 @@ Name: `samples -> run1` (folder)
   * `Generated_Text` the text generated from the GPT-2 trained model
   * `Generated_Text_Length` the number of tokens used to generate the GPT-2 text
 
-* ---
-Name: `BLM_CNN_GPT2_ouputs.txt`
+---
+* Name: `BLM_CNN_GPT2_ouputs.txt`
 * Description: Text file with all the outputs of the GPT-2 generated text
 * Usage: Observe the text by itself and search for any copied text (none found)
 * Contents:
@@ -58,13 +62,15 @@ Name: `BLM_CNN_GPT2_ouputs.txt`
  #### ***Python***
  * Name: `Get_BLM_CNN_Articles.py`
  * Description: Gets the BLM articles from CNN and stores them in their associated dataset
- * ---
- Name: `BLM_CNN_GPT2_Training.py`
+ ---
+ * Name: `BLM_CNN_GPT2_Training.py`
  * Description: Trains the model based on the data collected in the previous step
- * ---
- Name: `GPT2_BLM_Article_Outputs.py`
+ ---
+ * Name: `GPT2_BLM_Article_Outputs.py`
  * Description: Gets the model ouput based on the headline and stores the associated data
- 
+
+---
+
 ## ***Deliverables***
 !pip install selenium
 !pip install pandas
