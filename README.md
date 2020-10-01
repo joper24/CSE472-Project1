@@ -73,11 +73,18 @@ By: John Oper & Joshua Dipert
 
 ## ***Deliverables***
 !pip install selenium
+
 !pip install pandas
+
 !apt-get update # to update ubuntu to correctly run apt install
+
 !apt install chromium-chromedriver
+
 !pip install -q git+https://github.com/huggingface/transformers.git
+
 !pip uninstall tensorflow
+
 !pip install tensorflow==1.13.2
+
 !pip install -q gpt-2-simple
  
